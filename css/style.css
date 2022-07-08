@@ -1,0 +1,142 @@
+:root {
+    --color: #757575;
+    --h-color: #212121;
+    --nav-color: #2196F3;
+    --background: #2F303A;
+    --background-button: #F5F4FA;
+    --white: #FFFFFF;
+}
+body {
+    font-family: Roboto, Raleway, sans-serif;
+    color: var(--color);
+}
+.no-markers {
+    list-style: none;
+}
+.black-color, 
+.nav, 
+button {
+    color: var(--h-color);
+}
+.h-one {
+    font-size: 44px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: var(--white);
+}
+.h-two {
+    font-size: 36px;
+    line-height: 1.17;
+}
+.h-section-two {
+    font-size: 14px;
+    line-height: 1.17;
+    text-transform: uppercase;
+}
+.section-four{
+    font-size: 16px;
+    line-height: 1.17;
+}
+.h-portfolio {
+    font-size: 18px;
+    line-height: 2;
+    font-weight: 700;
+}
+.main-button {
+    background-color: var(--nav-color);
+    color: var(--white);
+    font-size: 16px;
+    line-height: 1.88;
+    font-weight: 700;
+    cursor: pointer;
+}
+.section1 {
+    background-color: var(--background);
+}
+.logo {
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.17;
+    color: var(--nav-color);
+    letter-spacing: 3%;
+}
+.logo-second-word {
+    color: #000000;
+}
+.logo-second-word-footer {
+    color: var(--white);
+}
+.footer {
+    background-color: var(--background);
+}
+.nav {
+    text-decoration: none;
+    color: var(--h-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.17;
+    cursor: pointer;
+    }
+
+.nav-adress {
+    color: inherit;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.17;
+    font-style: normal;
+}
+.foot {
+    line-height: 1.71;
+    font-weight: 400;
+}
+
+.footer-nav-adress {
+    text-decoration: none;
+    color: var(--white);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    font-weight: 400;
+}
+button {
+    border: none;
+    background-color: var(--background-button);
+    font-size: 16px;
+    line-height: 1.62;
+    cursor: pointer;
+}
+button:hover,
+button:focus {
+    background-color: var(--nav-color);
+    color: var(--white);
+}
+
+.address {
+    font-style: normal;
+}
+.nav:hover,
+.nav:focus,
+.nav-adress:hover,
+.nav-adress:focus {
+    color: var(--nav-color);
+}
+.text-section-two {
+    font-size: 14px;
+    line-height: 1.71;
+}
+.text-portfolio {
+    font-size: 16px;
+    line-height: 1.88;
+    font-weight: 400;
+}
+.no-style {
+    text-decoration: none;
+}
+.no-style:visited {
+    color: var(--color);
+}
+.transparent {
+    font-size: 0;
+}
